@@ -15,8 +15,8 @@
     <!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->
     <mvc:annotation-driven />
     <!-- 扫描类包，将标注Spring注解的类自动转化Bean，同时完成Bean的注入 -->
-    <context:component-scan base-package="com.web" />
-    <context:component-scan base-package="com.dao" />
+    <context:component-scan base-package="com" />
+    <context:component-scan base-package="com" />
 
     
 

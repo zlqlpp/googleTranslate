@@ -29,13 +29,13 @@ public class TransController {
 	public String main(ModelMap model, HttpServletRequest request, HttpServletResponse response, HttpSession session) {
 
 		model.addAttribute("err", "帐号错误，请联系VX:salinahk");
-		return "index.jsp";
+		return "index";
 	}
 	
 	@RequestMapping("/detail")
 	public String detail(ModelMap model, HttpServletRequest request, HttpServletResponse response, HttpSession session) {
 		List<Main_translator> list = bd.search("");
-        return "index.jsp";
+        return "index";
 	}
 	
 	@RequestMapping("/trans")
@@ -68,7 +68,7 @@ public class TransController {
             request.setAttribute("r", r);
             request.setAttribute("word", word);
     	}
-    	return "index.jsp";
+    	return "index";
 	}
 
 
