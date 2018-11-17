@@ -7,3 +7,11 @@
 6.新增spring mvc。daon层。
 7.增加功能代码 
 8.vps部署
+
+
+
+
+
+问题------------
+tomcat404 。需要修改resources到resources
+m2eclipse的版本问题  https://blog.csdn.net/qq_37495786/article/details/80743519 
